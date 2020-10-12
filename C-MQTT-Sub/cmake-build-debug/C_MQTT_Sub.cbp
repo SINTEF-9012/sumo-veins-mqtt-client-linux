@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C_MQTT_Sub"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_MQTT_Sub">
+				<Option output="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/C_MQTT_Sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/C_MQTT_Pub"/>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/PRIVATE"/>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/./src"/>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/../log"/>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/../helpers"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_MQTT_Sub"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C_MQTT_Sub/fast">
+				<Option output="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/C_MQTT_Sub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/C_MQTT_Pub"/>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/PRIVATE"/>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/./src"/>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/../log"/>
+					<Add directory="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/../helpers"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 C_MQTT_Sub/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/db/db_access.c">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/db/db_access.h">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/helpers/string_utils.c">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/helpers/string_utils.h">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/json/json_handler.c">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/json/json_handler.h">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/main.c">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/tiles.c">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/src/tiles.h">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/config/config.c">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/helpers/conversions.c">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/helpers/conversions.h">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/log/logger.c">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/log/logger.h">
+			<Option target="C_MQTT_Sub"/>
+		</Unit>
+		<Unit filename="/home/volvo/Documents/E8-Borealis/E8B-Pilot-MQTT-Client-Linux/C-MQTT-Sub/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,13 @@
+//
+// Created by root on 06.09.19.
+//
+
+#ifndef C_MQTT_PUB_TILE_H
+#define C_MQTT_PUB_TILE_H
+
+
+char *get_tile_based_topic4pub(int zoom_level, char *tile);
+char *get_tile_for_zoom_level4pub(char *tile, int zoom_level);
+
+
+#endif //C_MQTT_PUB_TILE_H
